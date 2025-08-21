@@ -42,7 +42,7 @@ const ProjectPage = () => {
             </div>
           </div>
 
-          {/* Call to Action Buttons */}
+          {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to="/" className="btn btn-primary btn-lg gap-2">
               <ArrowLeft className="size-5" />
@@ -55,7 +55,7 @@ const ProjectPage = () => {
           </div>
 
           {/* Fun Message */}
-          <div className="mt-12 p-6 bg-base-100 rounded-lg border border-base-300 shadow-sm">
+          <div className="mt-12 mb-12 p-6 bg-base-100 rounded-lg border border-base-300 shadow-sm">
             <p className="text-sm text-base-content/70 italic">
               💡 Check back soon for updates, or feel free to reach out if you'd
               like to know about my projects!

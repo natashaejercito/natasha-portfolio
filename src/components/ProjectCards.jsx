@@ -3,7 +3,6 @@ import { Link } from "react-router";
 import { ExternalLink, Github } from "lucide-react";
 
 const ProjectCards = () => {
-  // Sample project data - replace with your actual projects
   const projects = [
     {
       id: 1,

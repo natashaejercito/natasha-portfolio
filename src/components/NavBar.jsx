@@ -80,7 +80,7 @@ const NavBar = () => {
           <span>About</span>
         </Link>
         <Link
-          to="/resume"
+          to="https://drive.google.com/file/d/1JGsAXtpT5L9jOnRAYlIRHjQrhRqHBc4R/view?usp=sharing"
           className="btn btn-primary bg-base-200 border-2 w-full flex justify-center gap-2"
           onClick={() => setIsOpen(false)}
         >

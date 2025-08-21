@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="min-h-screen overflow-x-hidden">
       <NavBar />
 
-      {/* Hero Section - Added pt-16 to account for fixed navbar */}
+      {/* Hero Section */}
       <section className="hero bg-base-200 min-h-[100vh] pt-16 w-full">
         <div className="hero-content text-center w-full">
           <div className="max-w-4xl w-full px-4">
