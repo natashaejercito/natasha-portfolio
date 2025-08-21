@@ -22,7 +22,8 @@ const ProjectCards = () => {
       title: "Pretty Plants Info",
       description:
         "An informational website about pretty plants we surround ourselves with.",
-      image: "public/assets/Pretty-Plants-Info.png",
+      image:
+        "https://drive.google.com/file/d/1WWQtGkc6TJF0nShXEFBALVC8Lei24069/view?usp=sharing",
       technologies: ["8bit Painter", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/pretty-plants-info",
