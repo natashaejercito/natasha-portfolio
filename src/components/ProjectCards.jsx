@@ -10,8 +10,7 @@ const ProjectCards = () => {
       title: "Discography Artist",
       description:
         "A web application built with Figma, React, JavaScript, and HTML/CSS.",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s",
+      image: "https://i.postimg.cc/KvVxRPYh/Discography-Artist.png",
       technologies: ["Figma", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/wave-to-earth",
