@@ -21,8 +21,7 @@ const ProjectCards = () => {
       title: "Pretty Plants Info",
       description:
         "An informational website about pretty plants we surround ourselves with.",
-      image:
-        "https://drive.google.com/file/d/1WWQtGkc6TJF0nShXEFBALVC8Lei24069/view?usp=sharing",
+      image: "https://i.postimg.cc/fb18db9L/Pretty-Plants-Info.png",
       technologies: ["8bit Painter", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/pretty-plants-info",
@@ -33,7 +32,7 @@ const ProjectCards = () => {
       title: "New York Times",
       description:
         "A replica of New York Times Page using the fundamentals of HTML and CSS in building the application.",
-      image: "public/assets/new-york-page.png",
+      image: "https://i.postimg.cc/HkBKrHzc/new-york-page.png",
       technologies: ["HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/new-york-times-page",

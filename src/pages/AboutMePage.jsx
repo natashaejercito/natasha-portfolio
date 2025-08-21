@@ -14,7 +14,7 @@ const AboutMePage = () => {
             {/* Image on the left */}
             <div className="flex-shrink-0 relative group">
               <img
-                src="public/assets/natasha.jpg"
+                src="https://i.postimg.cc/SxkFXgp5/natasha.jpg"
                 alt="Profile"
                 className="w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-lg shadow-lg mt-8 lg:mt-20 transition-all duration-300 group-hover:brightness-110 group-hover:shadow-xl"
               />
