@@ -10,7 +10,7 @@ const ProjectCards = () => {
       title: "Discography Artist",
       description:
         "A web application built with Figma, React, JavaScript, and HTML/CSS.",
-      image: "src/assets/Discography-Artist.png",
+      image: "public/assets/Discography-Artist.png",
       technologies: ["Figma", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/wave-to-earth",
@@ -21,7 +21,7 @@ const ProjectCards = () => {
       title: "Pretty Plants Info",
       description:
         "An informational website about pretty plants we surround ourselves with.",
-      image: "src/assets/Pretty-Plants-Info.png",
+      image: "public/assets/Pretty-Plants-Info.png",
       technologies: ["8bit Painter", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/pretty-plants-info",
@@ -32,7 +32,7 @@ const ProjectCards = () => {
       title: "New York Times",
       description:
         "A replica of New York Times Page using the fundamentals of HTML and CSS in building the application.",
-      image: "./src/assets/new-york-page.png",
+      image: "public/assets/new-york-page.png",
       technologies: ["HTML/CSS"],
       liveUrl: "#",
       githubUrl: "https://github.com/natashaejercito/new-york-times-page",
