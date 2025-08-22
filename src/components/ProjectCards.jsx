@@ -8,7 +8,7 @@ const ProjectCards = () => {
       id: 1,
       title: "Discography Artist",
       description:
-        "A web application built with Figma, React, JavaScript, and HTML/CSS.",
+        "A web application showcasing the developer's favourite artist of the month.",
       image: "https://i.postimg.cc/KvVxRPYh/Discography-Artist.png",
       technologies: ["Figma", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "#",
@@ -90,7 +90,9 @@ const ProjectCards = () => {
                   aria-label={`View ${project.title} live`}
                 >
                   <ExternalLink className="size-3 sm:size-4" />
-                  <span className="text-xs sm:text-sm">Live Demo</span>
+                  <span className="text-xs sm:text-sm">
+                    Live Demo (coming soon)
+                  </span>
                 </a>
                 <a
                   href={project.githubUrl}
