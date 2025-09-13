@@ -28,13 +28,12 @@ const AboutMePage = () => {
 
             {/* About me description */}
             <div className="flex-1 text-center lg:text-left w-full min-w-0">
-              <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold font-mono tracking-tight mt-8 lg:mt-12 mb-6 lg:mb-8 break-words hyphens-auto">
-                I am a student specializing in{" "}
+              <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold font-mono tracking-tight mt-8 lg:mt-12 mb-5 lg:mb-3 break-words hyphens-auto">
+                <div>I am a student specializing in </div>
                 <span className="text-primary hover:text-purple-600">
                   Computer Programming and Analysis
                 </span>
               </h2>
-
               <div className="space-y-4 lg:space-y-6 text-sm lg:text-base xl:text-lg leading-relaxed">
                 <p className="text-gray-700 lg:text-justify break-words hyphens-auto">
                   Currently engaged in coursework covering programming languages
@@ -44,19 +43,34 @@ const AboutMePage = () => {
                   solutions.
                 </p>
 
-                <p className="text-gray-700 lg:text-justify break-words hyphens-auto">
-                  Additionally, I have practical experience collaborating within
-                  multidisciplinary teams to design, implement, and validate
-                  software projects, particularly through roles in Quality
-                  Assurance (QA) to identify and address real-world application
-                  challenges and to develop robust tools for problem resolution.
-                </p>
+                <div className="text-gray-700">
+                  <p className="mb-3">
+                    Some technologies I have been working with include:
+                  </p>
+                  <div className="flex justify-center sm:block">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1 w-fit sm:w-full">
+                      {[
+                        "JavaScript (ES6+)",
+                        "React.js",
+                        "Node.js",
+                        "Express",
+                        "Tailwind CSS & HTML5",
+                        "C++",
+                      ].map((tech, index) => (
+                        <span key={index} className="flex items-center text-sm">
+                          <span className="w-1.5 h-1.5 bg-violet-400 rounded-full mr-2"></span>
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
 
                 <p className="text-gray-700 lg:text-justify break-words hyphens-auto">
-                  Outside of programming and interface design, I actively
-                  participate in sports such as volleyball 🏐. I also pursue
-                  interests in blogs 📰, photography 📸, bouldering 🧗‍♀️, and
-                  enjoy consuming matcha-based beverages 🧉.
+                  Outside of tech life, I actively participate in sports such as
+                  volleyball 🏐. I also pursue interests in blogs 📰,
+                  photography 📸, bouldering 🧗‍♀️, and enjoy consuming
+                  matcha-based beverages 🧉.
                 </p>
               </div>
             </div>

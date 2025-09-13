@@ -1,6 +1,13 @@
 import { Link } from "react-router";
 import { useState } from "react";
-import { Menu, Binary, UserStar, FileText, BookHeart } from "lucide-react";
+import {
+  Menu,
+  Binary,
+  UserStar,
+  FileText,
+  BookHeart,
+  SunMedium,
+} from "lucide-react";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
