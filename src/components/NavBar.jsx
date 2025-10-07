@@ -38,7 +38,7 @@ const NavBar = () => {
             <span className="hidden lg:inline">About</span>
           </Link>
           <Link
-            to="https://drive.google.com/file/d/1zCt7cB-_BRDeCDnAXwz4f2q9A2uZ-TIj/view?usp=sharing"
+            to="https://drive.google.com/file/d/1oEo32fsbLnwKA4SVaZTZW7Bjv7qmjc2Y/view?usp=sharing"
             className="btn btn-sm lg:btn-md btn-primary bg-base-200 border-2"
             target="_blank"
           >
