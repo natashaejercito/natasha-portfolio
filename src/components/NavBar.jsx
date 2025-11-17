@@ -70,7 +70,7 @@ const NavBar = () => {
           isOpen ? "block" : "hidden"
         } md:hidden bg-primary bg-opacity-95 space-y-2 p-4 w-full`}
       >
-        <Link
+        {/* <Link
           to="/"
           className="btn btn-primary bg-base-200 border-2 w-full flex justify-center gap-2"
           onClick={() => setIsOpen(false)}
@@ -85,7 +85,7 @@ const NavBar = () => {
         >
           <UserStar className="size-5" />
           <span>About</span>
-        </Link>
+        </Link> */}
         <Link
           to="https://drive.google.com/file/d/1zCt7cB-_BRDeCDnAXwz4f2q9A2uZ-TIj/view?usp=sharing"
           target="_blank"
@@ -95,14 +95,14 @@ const NavBar = () => {
           <FileText className="size-5" />
           <span>Resume</span>
         </Link>
-        <Link
+        {/* <Link
           to="/hobbies"
           className="btn btn-primary bg-base-200 border-2 w-full flex justify-center gap-2"
           onClick={() => setIsOpen(false)}
         >
           <BookHeart className="size-5" />
           <span>Alter Ego</span>
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );
