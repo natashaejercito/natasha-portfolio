@@ -23,35 +23,35 @@ const NavBar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-2 lg:gap-4 flex-shrink-0">
-          <Link
+          {/* <Link
             to="/"
             className="btn btn-sm lg:btn-md btn-primary bg-base-200 border-2"
           >
             <Binary className="size-4 lg:size-5 " />
             <span className="hidden lg:inline">Work</span>
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             to="/about"
             className="btn btn-sm lg:btn-md btn-primary bg-base-200 border-2"
           >
             <UserStar className="size-4 lg:size-5" />
             <span className="hidden lg:inline">About</span>
-          </Link>
+          </Link> */}
           <Link
             to="https://drive.google.com/file/d/1oEo32fsbLnwKA4SVaZTZW7Bjv7qmjc2Y/view?usp=sharing"
-            className="btn btn-sm lg:btn-md btn-primary bg-base-200 border-2"
+            className="btn btn-sm lg:btn-md btn-primary bg-primary border-1"
             target="_blank"
           >
             <FileText className="size-4 lg:size-5" />
             <span className="hidden lg:inline">Resume</span>
           </Link>
-          <Link
+          {/* <Link
             to="/hobbies"
             className="btn btn-sm lg:btn-md btn-primary bg-base-200 border-2"
           >
             <BookHeart className="size-4 lg:size-5" />
             <span className="hidden lg:inline">Alter Ego</span>
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Menu Button */}

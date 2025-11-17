@@ -7,6 +7,28 @@ const ProjectCards = () => {
   const projects = [
     {
       id: 1,
+      title: "Slanguage",
+      description:
+        "A hackathon project that was built within 36 hours. It is designed to bridge the language gap across generationa and cultures by translating slang terms into comprehensible phrases.",
+      image: "https://i.postimg.cc/rFDddLJm/slanguage.png",
+      technologies: [
+        "Gemini API",
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Auth0",
+        "Git",
+        "Cors",
+      ],
+      liveUrl: "#",
+      githubUrl: "https://github.com/CrisH2307/Slanguage",
+      featured: true,
+    },
+    {
+      id: 2,
       title: "Haiku Generator",
       description:
         "An application to help you generate a 5-7-5 syllable haiku poem based on your chosen theme using Gemini API.",
@@ -14,10 +36,10 @@ const ProjectCards = () => {
       technologies: ["Gemini API", "React", "JavaScript", "HTML/CSS"],
       liveUrl: "https://haiku-aigenerator.netlify.app/",
       githubUrl: "https://github.com/natashaejercito/haiku-ai-generator",
-      featured: true,
+      featured: false,
     },
     {
-      id: 2,
+      id: 3,
       title: "Discography Artist",
       description:
         "A web application showcasing the developer's favourite artist of the month.",
@@ -28,18 +50,18 @@ const ProjectCards = () => {
       featured: false,
     },
     {
-      id: 3,
+      id: 4,
       title: "Pretty Plants Info",
       description:
         "An informational website about pretty plants we surround ourselves with.",
       image: "https://i.postimg.cc/fb18db9L/Pretty-Plants-Info.png",
       technologies: ["8bit Painter", "React", "JavaScript", "HTML/CSS"],
-      liveUrl: "#",
+      liveUrl: "https://pretty-plants-info.vercel.app/",
       githubUrl: "https://github.com/natashaejercito/pretty-plants-info",
       featured: false,
     },
     {
-      id: 4,
+      id: 5,
       title: "New York Times",
       description:
         "A replica of New York Times Page using the fundamentals of HTML and CSS in building the application.",
@@ -54,7 +76,7 @@ const ProjectCards = () => {
   const [activeProject, setActiveProject] = useState(projects[0]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-12">
       <div className="grid lg:grid-cols-4 gap-8 min-h-[600px]">
         {/* Project List */}
         <div className="lg:col-span-1">
@@ -76,7 +98,7 @@ const ProjectCards = () => {
           </ul>
         </div>
         {/* Project Display */}
-        <div className="lg:col-span-3 ml-5">
+        <div className="lg:col-span-3 ml-5 mt-2 ">
           <div className="grid md:grid-cols-2 gap-10 items-center h-full">
             {/* Project Image */}
             <div className="order-2 md:order-1">

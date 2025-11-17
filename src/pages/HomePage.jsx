@@ -4,12 +4,12 @@ import ProjectCards from "../components/ProjectCards";
 import Typewriter from "../components/Typewriter";
 import { Link } from "react-router";
 import { Linkedin, Github, Instagram } from "lucide-react";
+import AboutMePage from "./AboutMePage";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen overflow-x-hidden ">
       <NavBar />
-
       {/* Hero Section */}
       <section className="hero bg-base-200 min-h-[100vh] pt-16 w-full">
         <div className="hero-content text-center w-full">
@@ -36,7 +36,8 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
+      {/*About Me Section */}
+      <AboutMePage />
       {/* Projects Section */}
       <section className="py-12 lg:py-20 bg-base-100 w-full overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-7xl ">

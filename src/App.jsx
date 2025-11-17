@@ -10,9 +10,9 @@ const App = () => {
     <div className="min-h-screen overflow-x-hidden">
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutMePage />} />
-        <Route path="/projects" element={<ProjectPage />} />
-        <Route path="/hobbies" element={<AlterEgoPage />} />
+        {/* <Route path="/about" element={<AboutMePage />} /> */}
+        {/* <Route path="/projects" element={<ProjectPage />} /> */}
+        {/* <Route path="/hobbies" element={<AlterEgoPage />} /> */}
       </Routes>
     </div>
   );

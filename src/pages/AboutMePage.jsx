@@ -78,30 +78,53 @@ const AboutMePage = () => {
         </div>
 
         {/* Work Experience*/}
+
         <div className="pb-8 px-4 pt-12 w-full">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-4">
               <div className="bg-base-200 collapse border border-base-300 w-full">
                 <input type="checkbox" className="peer" />
-                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                  Director of Partnership, Unversity of Toronto UTSC
+                </div>
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                  <p className="break-words">Google Developer Group UTSC</p>
+                </div>
+              </div>
+
+              <div className="bg-base-200 collapse border border-base-300 w-full">
+                <input type="checkbox" className="peer" />
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                  Hacker, University of Toronto UTSC
+                </div>
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                  <p className="break-words">
+                    Hack the Valley - Hackathon Event
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-base-200 collapse border border-base-300 w-full">
+                <input type="checkbox" className="peer" />
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
                   Volunteer, Toronto Metropolitan University
                 </div>
-                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">TerraHacks - Hackathon Event</p>
                 </div>
               </div>
 
               <div className="bg-base-200 collapse border border-base-300 w-full">
                 <input type="checkbox" className="peer" />
-                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
                   Volunteer, York University
                 </div>
-                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">Hack the 6ix - Hackathon Event</p>
                 </div>
               </div>
 
-              <div className="bg-base-200 collapse border border-base-300 w-full ">
+              {/* <div className="bg-base-200 collapse border border-base-300 w-full ">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
                   Sales Associate, Toronto
@@ -109,14 +132,14 @@ const AboutMePage = () => {
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">Kiokii And..</p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="bg-base-200 collapse border border-base-300 w-full">
                 <input type="checkbox" className="peer" />
-                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
                   Support Services Officer, Toronto
                 </div>
-                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">Seneca Polytechnic</p>
                 </div>
               </div>
