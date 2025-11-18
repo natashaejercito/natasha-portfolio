@@ -98,8 +98,8 @@ const ProjectCards = () => {
           </ul>
         </div>
         {/* Project Display */}
-        <div className="lg:col-span-3 ml-5 mt-2 ">
-          <div className="grid md:grid-cols-2 gap-10 items-center h-full">
+        <div className="lg:col-span-3 ml-5">
+          <div className="grid md:grid-cols-2 gap-10 items-start">
             {/* Project Image */}
             <div className="order-2 md:order-1">
               <div className="relative group overflow-hidden rounded-2xl shadow-2xl bg-base-200">

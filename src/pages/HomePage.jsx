@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className="min-h-screen overflow-x-hidden ">
       <NavBar />
       {/* Hero Section */}
-      <section className="hero bg-base-200 min-h-[100vh] pt-16 w-full">
+      <section className="hero  min-h-[100vh] pt-16 w-full">
         <div className="hero-content text-center w-full">
           <div className="max-w-4xl w-full px-4">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 break-words ">

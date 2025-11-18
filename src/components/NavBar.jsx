@@ -7,6 +7,8 @@ import {
   FileText,
   BookHeart,
   SunMedium,
+  Sun,
+  Moon,
 } from "lucide-react";
 
 const NavBar = () => {
@@ -45,6 +47,15 @@ const NavBar = () => {
             <FileText className="size-4 lg:size-5" />
             <span className="hidden lg:inline">Resume</span>
           </Link>
+          <label className="swap swap-rotate">
+            <input type="checkbox" className="theme-controller" value="dark" />
+
+            {/* sun icon */}
+            <Sun className="swap-off w-8 h-8" />
+            {/* moon icon */}
+            <Moon className="swap-on w-8 h-8" />
+          </label>
+
           {/* <Link
             to="/hobbies"
             className="btn btn-sm lg:btn-md btn-primary bg-base-200 border-2"
