@@ -85,7 +85,7 @@ const AboutMePage = () => {
               <div className="bg-base-200 collapse border border-base-300 w-full">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
-                  Director of Partnership, Unversity of Toronto UTSC
+                  Director of Partnerships, University of Toronto Scarborough
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">Google Developer Group UTSC</p>
@@ -95,7 +95,7 @@ const AboutMePage = () => {
               <div className="bg-base-200 collapse border border-base-300 w-full">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
-                  Hacker, University of Toronto UTSC
+                  Hacker, University of Toronto Scarborough
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">
