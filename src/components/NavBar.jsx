@@ -47,7 +47,7 @@ const NavBar = () => {
             <FileText className="size-4 lg:size-5" />
             <span className="hidden lg:inline">Resume</span>
           </Link>
-          <label className="swap swap-rotate">
+          <label className="swap swap-rotate ">
             <input type="checkbox" className="theme-controller" value="dark" />
 
             {/* sun icon */}
