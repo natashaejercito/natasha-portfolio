@@ -39,14 +39,14 @@ const NavBar = () => {
             <UserStar className="size-4 lg:size-5" />
             <span className="hidden lg:inline">About</span>
           </Link> */}
-          <Link
+          {/* <Link
             to="https://drive.google.com/file/d/1oEo32fsbLnwKA4SVaZTZW7Bjv7qmjc2Y/view?usp=sharing"
             className="btn btn-sm lg:btn-md btn-primary bg-primary border-1"
             target="_blank"
           >
             <FileText className="size-4 lg:size-5" />
             <span className="hidden lg:inline">Resume</span>
-          </Link>
+          </Link> */}
           <label className="swap swap-rotate ">
             <input type="checkbox" className="theme-controller" value="dark" />
 
@@ -66,22 +66,36 @@ const NavBar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <button
+        <label className="swap swap-rotate md:hidden flex p-2 items-center justify-center">
+          <input type="checkbox" className="theme-controller" value="dark" />
+
+          {/* sun icon */}
+          <Sun className="swap-off w-6 h-6 absolute" />
+          {/* moon icon */}
+          <Moon className="swap-on w-6 h-6 absolute" />
+        </label>
+        {/* <button
           onClick={() => setIsOpen(!isOpen)}
-          className="block md:hidden p-2 flex-shrink-0"
+          className="block md:hidden p-2 "
           aria-label="Toggle menu"
         >
           <Menu className="size-6" />
-        </button>
+        </button> */}
       </div>
-
       {/* Mobile Navigation */}
-      <div
-        className={`${
-          isOpen ? "block" : "hidden"
-        } md:hidden bg-primary bg-opacity-95 space-y-2 p-4 w-full`}
-      >
-        {/* <Link
+      {/* <div
+        className={`${isOpen ? "block" : "hidden"} md:hidden bg-primary  p-4 `}
+      > */}
+      {/* <label className="swap swap-rotate block md:hidden p-2 flex-shrink-0">
+        <input type="checkbox" className="theme-controller" value="dark" /> */}
+
+      {/* sun icon */}
+      {/* <Sun className="swap-off w-6 h-6" /> */}
+      {/* moon icon */}
+      {/* <Moon className="swap-on w-6 h-6" /> */}
+      {/* </label> */}
+
+      {/* <Link
           to="/"
           className="btn btn-primary bg-base-200 border-2 w-full flex justify-center gap-2"
           onClick={() => setIsOpen(false)}
@@ -97,7 +111,7 @@ const NavBar = () => {
           <UserStar className="size-5" />
           <span>About</span>
         </Link> */}
-        <Link
+      {/* <Link
           to="https://drive.google.com/file/d/1zCt7cB-_BRDeCDnAXwz4f2q9A2uZ-TIj/view?usp=sharing"
           target="_blank"
           className="btn btn-primary bg-base-200 border-2 w-full flex justify-center gap-2"
@@ -105,8 +119,8 @@ const NavBar = () => {
         >
           <FileText className="size-5" />
           <span>Resume</span>
-        </Link>
-        {/* <Link
+        </Link> */}
+      {/* <Link
           to="/hobbies"
           className="btn btn-primary bg-base-200 border-2 w-full flex justify-center gap-2"
           onClick={() => setIsOpen(false)}
@@ -114,7 +128,7 @@ const NavBar = () => {
           <BookHeart className="size-5" />
           <span>Alter Ego</span>
         </Link> */}
-      </div>
+      {/* </div> */}
     </nav>
   );
 };

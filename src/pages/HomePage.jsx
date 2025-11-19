@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 import ProjectCards from "../components/ProjectCards";
 import Typewriter from "../components/Typewriter";
 import { Link } from "react-router";
-import { Linkedin, Github, Instagram } from "lucide-react";
+import { Linkedin, Github, Instagram, MoveRight } from "lucide-react";
 import AboutMePage from "./AboutMePage";
 
 const HomePage = () => {
@@ -32,6 +32,17 @@ const HomePage = () => {
                 focus on user experience optimization and intuitive interface
                 design.
               </p>
+
+              <Link
+                to="https://drive.google.com/file/d/1oEo32fsbLnwKA4SVaZTZW7Bjv7qmjc2Y/view?usp=sharing"
+                target="_blank"
+                className="w-full flex justify-center gap-2 group"
+              >
+                <span className="transition-colors duration-300 group-hover:text-primary text-xl font-semibold break-words">
+                  View Resume
+                </span>
+                <MoveRight className="size-8 transition-all duration-300 hover-group:scale-125 group-hover:translate-x-2 group-hover:text-primary" />
+              </Link>
             </div>
           </div>
         </div>
