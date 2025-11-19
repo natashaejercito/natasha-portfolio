@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { useState } from "react";
+// import { useState } from "react";
 import {
   Menu,
   Binary,
@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-base-500 border-b border-base-content/10 fixed top-0 left-0 right-0 z-50 w-full">
