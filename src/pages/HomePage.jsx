@@ -21,9 +21,9 @@ const HomePage = () => {
                 speed={200}
               />
             </h1>
-            <code className="text-2xl lg:text-3xl xl:text-4xl tracking-tight mb-10 break-words">
+            {/* <code className="text-2xl lg:text-3xl xl:text-4xl tracking-tight mb-10 break-words">
               A Software Developer
-            </code>
+            </code> */}
             <div className="max-w-3xl mx-auto">
               <p className="text-base lg:text-lg leading-relaxed text-gray-700 mt-4 mb-6 break-words">
                 Specializing in the design and implementation of robust,
