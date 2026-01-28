@@ -34,7 +34,7 @@ const HomePage = () => {
               </p>
 
               <Link
-                to="https://drive.google.com/file/d/1BjvQP_YOJbj4VMbP1IP5-egznw4WuSYd/view?usp=drive_link"
+                to="https://drive.google.com/file/d/1B62m9eLh85yL4kUu3L5JLoOolR0FfriQ/view?usp=sharing"
                 target="_blank"
                 className="w-full flex justify-center gap-2 group"
               >
