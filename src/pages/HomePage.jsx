@@ -26,11 +26,9 @@ const HomePage = () => {
             </code> */}
             <div className="max-w-3xl mx-auto">
               <p className="text-base lg:text-lg leading-relaxed text-gray-700 mt-4 mb-6 break-words">
-                Specializing in the design and implementation of robust,
-                scalable, and maintainable web applications. Possesses
-                proficiency in both front-end and back-end development, with a
-                focus on user experience optimization and intuitive interface
-                design.
+                Building scalable web applications with clean, maintainable
+                code. Passionate about full-stack development and creating
+                seamless user experiences.
               </p>
 
               <Link

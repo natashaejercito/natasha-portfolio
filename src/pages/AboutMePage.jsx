@@ -37,10 +37,10 @@ const AboutMePage = () => {
               <div className="space-y-4 lg:space-y-6 text-sm lg:text-base xl:text-lg leading-relaxed">
                 <p className="text-gray-700 lg:text-justify break-words hyphens-auto">
                   Currently engaged in coursework covering programming languages
-                  such as C++, software design principles, and systems analysis
-                  methodologies. I am highly motivated to advance my expertise
-                  in emerging technologies to develop effective and innovative
-                  solutions.
+                  such as JavaScript, C++, Python, software design principles,
+                  and systems analysis methodologies. I am highly motivated to
+                  advance my expertise in emerging technologies to develop
+                  effective and innovative solutions.
                 </p>
 
                 <div className="text-gray-700">
@@ -50,12 +50,18 @@ const AboutMePage = () => {
                   <div className="flex justify-center sm:block">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1 w-fit sm:w-full">
                       {[
-                        "JavaScript (ES6+)",
-                        "React.js",
-                        "Node.js",
-                        "Express",
-                        "Tailwind CSS & HTML5",
+                        "JavaScript",
+                        "HTML/CSS",
+                        "SQL",
                         "C++",
+                        "Python",
+                        "React",
+                        "Node.js",
+                        "MongoDB",
+                        "PostgreSQL",
+                        "Git",
+                        "AWS",
+                        "Jira",
                       ].map((tech, index) => (
                         <span key={index} className="flex items-center text-sm">
                           <span className="w-1.5 h-1.5 bg-violet-400 rounded-full mr-2"></span>
@@ -68,9 +74,9 @@ const AboutMePage = () => {
 
                 <p className="text-gray-700 lg:text-justify break-words hyphens-auto">
                   Outside of tech life, I actively participate in sports such as
-                  volleyball 🏐. I also pursue interests in blogs 📰,
-                  photography 📸, bouldering 🧗‍♀️, and enjoy consuming
-                  matcha-based beverages 🧉.
+                  volleyball 🏐. I also pursue interests in arts 🎨, photography
+                  📸, bouldering 🧗‍♀️, and enjoy consuming matcha-based beverages
+                  🧉.
                 </p>
               </div>
             </div>
@@ -88,19 +94,98 @@ const AboutMePage = () => {
                   Director of Partnerships, University of Toronto Scarborough
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
-                  <p className="break-words">Google Developer Group UTSC</p>
+                  <p className="break-words mb-2">
+                    Google Developer Group UTSC
+                  </p>
+
+                  <ul className="list-disc pl-5 text-justify">
+                    <li>
+                      Highlight the benefits of partnering with the event and
+                      negotiate partnership terms
+                    </li>
+                    <li>
+                      Build and manage long-term relationaships with industry
+                      leaders
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-base-200 collapse border border-base-300 w-full ">
+                <input type="checkbox" className="peer" />
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                  Sales Associate, Toronto
+                </div>
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                  <p className="break-words mb-2">Kiokii And..</p>
+                  <ul className="list-disc pl-5 text-justify">
+                    <li>
+                      Assisted customers by analyzing needs and providing
+                      tailored product solutions, reinforcing user-centric
+                      problem- solving skills.
+                    </li>
+                    <li>
+                      Used POS software to process transactions while ensuring
+                      data accuracy.
+                    </li>
+                    <li>
+                      Adapted quickly to changing customer requests while
+                      maintaining professionalism and efficiency.
+                    </li>
+                  </ul>
                 </div>
               </div>
 
               <div className="bg-base-200 collapse border border-base-300 w-full">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
-                  Hacker, University of Toronto Scarborough
+                  Hacker (Front-end Developer), University of Toronto
+                  Scarborough
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
-                  <p className="break-words">
+                  <p className="break-words mb-2">
                     Hack the Valley - Hackathon Event
                   </p>
+                  <ul className="list-disc pl-5 text-justify">
+                    <li>
+                      Ideated and prototyped Slanguage with a team of four
+                      hackers to tackle language barrier.
+                    </li>
+                    <li>
+                      Led 60% of the front-end development, building a
+                      responsive, dynamic UI.
+                    </li>
+                    <li>
+                      Integrated Gemini API to enhance translation accuracy and
+                      creativity, achieving a hackathon-ready project.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-base-200 collapse border border-base-300 w-full">
+                <input type="checkbox" className="peer" />
+                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
+                  Support Services Officer, Toronto
+                </div>
+                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
+                  <p className="break-words mb-2">
+                    Accessible Learning Services - Seneca Polytechnic
+                  </p>
+                  <ul className="list-disc pl-5 text-justify">
+                    <li>
+                      Guided students in C++ programming assignments, improving
+                      comprehension and coding skills.
+                    </li>
+                    <li>
+                      Provided structured support to enhance task completion and
+                      learning outcomes.
+                    </li>
+                    <li>
+                      Improved engagement by 20% through consistent mentoring
+                      and motivational support.
+                    </li>
+                  </ul>
                 </div>
               </div>
 
@@ -121,26 +206,6 @@ const AboutMePage = () => {
                 </div>
                 <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
                   <p className="break-words">Hack the 6ix - Hackathon Event</p>
-                </div>
-              </div>
-
-              {/* <div className="bg-base-200 collapse border border-base-300 w-full ">
-                <input type="checkbox" className="peer" />
-                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
-                  Sales Associate, Toronto
-                </div>
-                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content font-mono text-sm lg:text-base">
-                  <p className="break-words">Kiokii And..</p>
-                </div>
-              </div> */}
-
-              <div className="bg-base-200 collapse border border-base-300 w-full">
-                <input type="checkbox" className="peer" />
-                <div className="collapse-title bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono font-bold text-sm lg:text-base break-words">
-                  Support Services Officer, Toronto
-                </div>
-                <div className="collapse-content bg-primary text-primary-content peer-checked:bg-gray-300 peer-checked:text-secondary-content font-mono text-sm lg:text-base">
-                  <p className="break-words">Seneca Polytechnic</p>
                 </div>
               </div>
             </div>
